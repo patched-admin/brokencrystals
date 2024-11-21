@@ -571,7 +571,10 @@
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
-      "secret": "3abff4a7-6649-4bae-a105-9bd1fb52a2cd",
+      ```
+      secret = os.environ.get('API_KEY_SECRET', 'default_secret')
+      
+      ```
       "redirectUris": [],
       "webOrigins": [],
       "notBefore": 0,
